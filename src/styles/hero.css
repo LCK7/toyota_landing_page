@@ -1,0 +1,100 @@
+/* ===========================
+   HERO PROFESIONAL
+=========================== */
+
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.55), 
+            rgba(0, 0, 0, 0.55)
+        ),
+        url('/public/hiluxgr.jpg') 
+        center/cover no-repeat;
+}
+
+/* Contenido centrado */
+.hero-content {
+    text-align: center;
+    color: #fff;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+/* TÍTULO */
+.hero-title {
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+/* SUBTÍTULO */
+.hero-subtitle {
+    font-size: 1.35rem;
+    font-weight: 300;
+    margin-bottom: 40px;
+    opacity: 0.95;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* BOTÓN */
+.hero-button {
+    display: inline-block;
+    background-color: #25D366;
+    padding: 14px 32px;
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 600;
+    border-radius: 40px;
+    text-decoration: none;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    transition: 0.25s ease-in-out;
+}
+
+/* EFECTO PROFESIONAL */
+.hero-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    opacity: 0.95;
+}
+@media (max-width: 768px) {
+    .hero {
+        min-height: 60vh; /* reduce altura en móviles */
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-button {
+        font-size: 1rem;
+        padding: 12px 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.6rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.95rem;
+    }
+
+    .hero-button {
+        padding: 10px 20px;
+    }
+}

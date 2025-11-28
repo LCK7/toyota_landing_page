@@ -1,0 +1,75 @@
+
+.header {
+    background: var(--white);
+    padding: 16px 0;
+    box-shadow: var(--shadow);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img {
+    height: 42px;
+    width: auto;
+}
+
+.logo-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: var(--text-dark);
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.nav-link:hover {
+    color: var(--toyota-red);
+}
+
+/* Redes sociales */
+.social-link {
+    color: var(--text-dark);
+    font-size: 1.1rem;
+    transition: 0.25s;
+}
+
+.social-link:hover {
+    color: var(--toyota-red);
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .logo-text {
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        font-size: 0.95rem;
+    }
+
+    .social-link {
+        font-size: 1rem;
+    }
+}

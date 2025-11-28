@@ -1,0 +1,138 @@
+/* ===========================
+   ABOUT US
+=========================== */
+.about-us-section {
+  padding: 80px 0;
+  background: #fff;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #e3000b; /* Toyota red */
+  margin-bottom: 40px;
+  font-weight: 800;
+}
+
+.about-content {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Texto principal */
+.about-text {
+  flex: 1 1 550px;
+  color: #444;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.about-text p + p {
+  margin-top: 20px;
+}
+
+/* Estadísticas / datos rápidos */
+.about-stats {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.stat {
+  background: #f9f9f9;
+  padding: 25px 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.stat-number {
+  display: block;
+  font-size: 2.5rem;
+  color: #e3000b;
+  font-weight: 800;
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* -----------------------------
+   RESPONSIVE
+----------------------------- */
+@media (max-width: 900px) {
+  .about-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about-stats {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 0;
+  }
+
+  .stat {
+    flex: 1 1 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+  }
+
+  .stat {
+    flex: 1 1 100%;
+    padding: 20px 15px;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .stat-label {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-title {
+    font-size: 1.8rem;
+  }
+
+  .about-text {
+    font-size: 0.9rem;
+  }
+
+  .stat-number {
+    font-size: 1.8rem;
+  }
+
+  .stat-label {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,71 @@
+/* ===========================
+   VEHICLE CATALOG
+=========================== */
+
+.catalog-section {
+    padding: 80px 0;
+}
+
+.filter-controls {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.filter-controls select {
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    border-radius: var(--radius);
+    font-size: 1rem;
+    min-width: 180px;
+}
+
+.vehicle-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+/* =========================== */
+/* VEHICLE CATALOG — RESPONSIVE */
+/* =========================== */
+
+@media (max-width: 1024px) {
+    .filter-controls {
+        gap: 12px;
+    }
+
+    .filter-controls select {
+        min-width: 150px;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .catalog-section {
+        padding: 60px 15px;
+    }
+
+    .filter-controls {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .filter-controls select {
+        width: 100%;
+    }
+
+    .vehicle-grid {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .catalog-section {
+        padding: 50px 10px;
+    }
+
+    .vehicle-grid {
+        gap: 15px;
+    }
+}
