@@ -9,7 +9,7 @@ function Header() {
                 <div className="logo">
                     <img
                         href="#"
-                        src="/public/logo_automoviles.png" 
+                        src="/logo_automoviles.png" 
                         alt="Logo Toyota" 
                         className="logo-img"
                     />

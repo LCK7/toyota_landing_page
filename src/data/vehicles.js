@@ -7,7 +7,7 @@ export const vehicles = [
         year: 2024,
         price: 32000,
         description: 'Un SUV compacto, eficiente y versátil, perfecto tanto para la ciudad como para escapadas.',
-        image: '/public/cars/corrolla.jpg',
+        image: '/cars/corrolla.jpg',
 
         engine: "2.0L Dynamic Force",
         power: "168 HP",
@@ -52,7 +52,7 @@ export const vehicles = [
         year: 2024,
         price: 38900,
         description: 'Capacidades off-road y diseño audaz para quienes buscan aventura.',
-        image: '/public/cars/rav4.jpg',
+        image: '/cars/rav4.jpg',
 
         engine: "2.5L VVT-i",
         power: "203 HP",
@@ -92,7 +92,7 @@ export const vehicles = [
         year: 2023,
         price: 52500,
         description: 'SUV de 7 pasajeros con chasis robusto, ideal para viajes largos.',
-        image: '/public/cars/fortuner.jpg',
+        image: '/cars/fortuner.jpg',
 
         engine: "2.8L Turbo Diésel",
         power: "201 HP",
@@ -132,7 +132,7 @@ export const vehicles = [
         year: 2022,
         price: 68000,
         description: 'El todoterreno icónico de Toyota con lujo y fuerza legendaria.',
-        image: '/public/cars/landcruiser.jpg',
+        image: '/cars/landcruiser.jpg',
 
         engine: "4.0L V6",
         power: "271 HP",
@@ -173,7 +173,7 @@ export const vehicles = [
         year: 2024,
         price: 21500,
         description: 'Sedán accesible, económico y confiable para uso diario.',
-        image: '/public/cars/yaris.jpg',
+        image: '/cars/yaris.jpg',
 
         engine: "1.5L",
         power: "106 HP",
@@ -204,7 +204,7 @@ export const vehicles = [
         year: 2025,
         price: 28500,
         description: 'El Corolla híbrido con máxima eficiencia y tecnología moderna.',
-        image: '/public/cars/sedanhybrid.png',
+        image: '/cars/sedanhybrid.png',
 
         engine: "1.8L Híbrido",
         power: "121 HP combinados",
@@ -235,7 +235,7 @@ export const vehicles = [
         year: 2023,
         price: 35900,
         description: 'Sedán deportivo de lujo con gran confort.',
-        image: '/public/cars/camry.jpg',
+        image: '/cars/camry.jpg',
 
         engine: "2.5L",
         power: "206 HP",
@@ -265,7 +265,7 @@ export const vehicles = [
         year: 2021,
         price: 55000,
         description: 'Sedán impulsado por hidrógeno, futuro hecho realidad.',
-        image: '/public/cars/mirai.jpg',
+        image: '/cars/mirai.jpg',
 
         engine: "Motor eléctrico (celdas de hidrógeno)",
         power: "182 HP",
@@ -296,7 +296,7 @@ export const vehicles = [
         year: 2023,
         price: 45000,
         description: 'Potencia, resistencia y rendimiento en el trabajo.',
-        image: '/public/cars/hilux.jpg',
+        image: '/cars/hilux.jpg',
 
         engine: "2.8L Turbo Diésel",
         power: "201 HP",
@@ -325,7 +325,7 @@ export const vehicles = [
         year: 2024,
         price: 51000,
         description: 'Pick-up todoterreno con diseño agresivo TRD.',
-        image: '/public/cars/tacoma.jpg',
+        image: '/cars/tacoma.jpg',
 
         engine: "3.5L V6",
         power: "278 HP",
@@ -354,7 +354,7 @@ export const vehicles = [
         year: 2024,
         price: 31000,
         description: 'Un coupé ligero perfecto para experiencias deportivas.',
-        image: '/public/cars/gr86.jpg',
+        image: '/cars/gr86.jpg',
 
         engine: "2.4L Boxer",
         power: "228 HP",
@@ -379,7 +379,7 @@ export const vehicles = [
         year: 2023,
         price: 65000,
         description: 'El legendario Supra con ADN de rendimiento puro.',
-        image: '/public/cars/supra.jpeg',
+        image: '/cars/supra.jpeg',
 
         engine: "3.0L Twin Scroll Turbo",
         power: "382 HP",

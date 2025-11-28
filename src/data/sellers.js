@@ -7,7 +7,7 @@ export const sellers = [
         title: 'Gerente de Ventas',
         phone: '+51 999 123 456',
         email: 'ana.garcia@automoviles.com',
-        photo: '/public/m1.png'
+        photo: '/m1.png'
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const sellers = [
         title: 'Asesor de Vehículos Nuevos',
         phone: '+51 999 789 012',
         email: 'carlos.ruiz@automoviles.com',
-        photo: '/public/v1.png'
+        photo: '/v1.png'
     },
     {
         id: 3,
@@ -23,7 +23,7 @@ export const sellers = [
         title: 'Especialista en Financiamiento',
         phone: '+51 999 345 678',
         email: 'sofia.landa@automoviles.com',
-        photo: '/public/m2.png'
+        photo: '/m2.png'
     },
     {
         id: 4,
@@ -31,7 +31,7 @@ export const sellers = [
         title: 'Asesor de Flotas',
         phone: '+51 999 500 000',
         email: 'miguel.torres@automoviles.com',
-        photo: '/public/v2.png'
+        photo: '/v2.png'
     },
     {
         id: 5,
@@ -39,7 +39,7 @@ export const sellers = [
         title: 'Ejecutivo de Postventa',
         phone: '+51 999 654 321',
         email: 'frank.paredes@automoviles.com',
-        photo: '/public/v4.png'
+        photo: '/v4.png'
     },
     {
         id: 6,
@@ -47,6 +47,6 @@ export const sellers = [
         title: 'Asesor de Seminuevos',
         phone: '+51 999 111 222',
         email: 'jorge.medina@automoviles.com',
-        photo: '/public/v3.png'
+        photo: '/v3.png'
     },
 ];
