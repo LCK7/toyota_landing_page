@@ -40,11 +40,6 @@ function VehicleCatalog() {
                     ))}
                 </select>
 
-                <select name="availability" onChange={handleFilterChange}>
-                    <option value="all">Disponibilidad</option>
-                    <option value="available">En Stock</option>
-                    <option value="unavailable">Agotado</option>
-                </select>
             </div>
 
             {/* RF02: Grid de Vehículos */}
