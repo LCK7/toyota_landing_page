@@ -1,7 +1,3 @@
-/* ===========================
-   HERO PROFESIONAL
-=========================== */
-
 .hero {
     position: relative;
     width: 100%;
@@ -9,18 +5,38 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+}
 
-    background: 
-        linear-gradient(
-            rgba(0, 0, 0, 0.55), 
-            rgba(0, 0, 0, 0.55)
-        ),
-        url('/hiluxgr.jpg') 
-        center/cover no-repeat;
+/* Capas de background para fade */
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: opacity 2s ease-in-out;
+    z-index: 0;
+}
+
+/* Capa oscura sobre las imágenes */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.55); /* oscurito */
+    z-index: 1;
 }
 
 /* Contenido centrado */
 .hero-content {
+    position: relative;
+    z-index: 2; /* encima de overlay */
     text-align: center;
     color: #fff;
     max-width: 900px;
@@ -60,41 +76,22 @@
     transition: 0.25s ease-in-out;
 }
 
-/* EFECTO PROFESIONAL */
 .hero-button:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
     opacity: 0.95;
 }
+
+/* MEDIA QUERIES */
 @media (max-width: 768px) {
-    .hero {
-        min-height: 60vh; /* reduce altura en móviles */
-    }
-
-    .hero-title {
-        font-size: 2rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1rem;
-    }
-
-    .hero-button {
-        font-size: 1rem;
-        padding: 12px 24px;
-    }
+    .hero { min-height: 60vh; }
+    .hero-title { font-size: 2rem; }
+    .hero-subtitle { font-size: 1rem; }
+    .hero-button { font-size: 1rem; padding: 12px 24px; }
 }
 
 @media (max-width: 480px) {
-    .hero-title {
-        font-size: 1.6rem;
-    }
-
-    .hero-subtitle {
-        font-size: 0.95rem;
-    }
-
-    .hero-button {
-        padding: 10px 20px;
-    }
+    .hero-title { font-size: 1.6rem; }
+    .hero-subtitle { font-size: 0.95rem; }
+    .hero-button { padding: 10px 20px; }
 }
