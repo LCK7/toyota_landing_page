@@ -40,7 +40,7 @@ function Footer() {
                             <i className="fas fa-envelope"></i> info@concesionario.com
                         </li>
                         <li>
-                            <i className="fas fa-map-marker-alt"></i> Lima – Perú
+                            <i className="fas fa-map-marker-alt"></i> Huancayo – Perú
                         </li>
                     </ul>
                 </div>
@@ -49,10 +49,10 @@ function Footer() {
                 <div className="footer-section">
                     <h4>Redes Sociales</h4>
                     <div className="footer-socials">
-                        <a href="#" target="_blank"><i className="fab fa-facebook"></i></a>
-                        <a href="#" target="_blank"><i className="fab fa-instagram"></i></a>
-                        <a href="#" target="_blank"><i className="fab fa-youtube"></i></a>
-                        <a href="#" target="_blank"><i className="fab fa-tiktok"></i></a>
+                        <a href="https://www.facebook.com/share/1ADv5okWh4/" target="_blank"><i className="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/automoviles.s.a?igsh=MW5zNzB5cmtocmgyNg==" target="_blank"><i className="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@automoviless.a.778/videos" target="_blank"><i className="fab fa-youtube"></i></a>
+                        <a href="https://www.tiktok.com/@automoviles.sa?is_from_webapp=1&sender_device=pc" target="_blank"><i className="fab fa-tiktok"></i></a>
                     </div>
                 </div>
 

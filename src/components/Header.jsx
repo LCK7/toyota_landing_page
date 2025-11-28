@@ -22,13 +22,13 @@ function Header() {
 
                     <div style={{ display: 'flex', gap: '8px' }}>
                         {/* ICONOS DE REDES SOCIALES */}
-                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-link">
+                        <a href="https://www.facebook.com/share/1ADv5okWh4/" target="_blank" rel="noopener noreferrer" className="social-link">
                             <i className="fab fa-facebook-f"></i>
                         </a>
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-link">
+                        <a href="https://www.instagram.com/automoviles.s.a?igsh=MW5zNzB5cmtocmgyNg==" target="_blank" rel="noopener noreferrer" className="social-link">
                             <i className="fab fa-instagram"></i>
                         </a>
-                        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="social-link">
+                        <a href="https://www.youtube.com/@automoviless.a.778/videos" target="_blank" rel="noopener noreferrer" className="social-link">
                             <i className="fab fa-youtube"></i>
                         </a>
                     </div>
